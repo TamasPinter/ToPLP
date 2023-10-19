@@ -27,3 +27,8 @@ a {
 img {
   padding-left: 25px;
 }
+
+.Top {
+  display: flex;
+  justify-content: center;
+}
