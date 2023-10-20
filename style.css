@@ -1,13 +1,17 @@
+* {
+  font-family: Geneva, Verdana, sans-serif;
+}
+
 .Container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(33, 33, 59);
+  background-color: #1f2937;
 }
 
 .Header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(33, 33, 59);
+  background-color: #1f2937;
   padding: 8px;
   margin: 0;
 }
@@ -21,6 +25,8 @@ ul {
 
 a {
   text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .Header,
@@ -38,13 +44,14 @@ img {
 
 .leftSide {
   text-align: left;
-  color: white;
+  font: 48px;
+  color: #f9faf8;
   padding-left: 25px;
 }
 
 .leftSide button {
   color: white;
-  background-color: rgb(5, 68, 255);
+  background-color: #3882f6;
   border: none;
   border-radius: 5px;
   font-size: 16px;
@@ -53,11 +60,12 @@ img {
 }
 
 .leftSide p {
-  color: rgb(209, 207, 207);
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .rightSide img {
-  border: 5px dashed rgb(255, 255, 255);
+  box-shadow: rgb(192, 192, 192) 0px 0px 10px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -86,17 +94,18 @@ img {
 
 .Bottom {
   display: block;
-  background-color: rgb(163, 162, 162);
+  background-color: #e5e7eb;
   justify-content: center;
 }
 
 .Quote {
-  font-size: 34px;
+  font-size: 36px;
   text-align: center;
-  font-style: italic;
+  font-style: light-italic;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 40px;
+  color: #1f2937;
 }
 
 .Author {
@@ -110,10 +119,11 @@ img {
   text-align: center;
   color: white;
   font-size: 15px;
+  background-color: #1f2937;
 }
 
 .SignUpBox {
-  background-color: blue;
+  background-color: #3882f6;
   margin-top: 50px;
   margin-left: 200px;
   margin-right: 200px;
@@ -124,9 +134,9 @@ img {
 }
 
 .SignUpText h3 {
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: extra-bold;
   text-align: center;
   padding-left: 100px;
 }
@@ -139,7 +149,7 @@ img {
 }
 
 .SignUpButton button {
-  background-color: blue;
+  background-color: #3882f6;
   color: white;
   border: 2px solid white;
   border-radius: 5px;
