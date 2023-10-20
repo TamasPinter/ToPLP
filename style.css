@@ -1,13 +1,13 @@
 .Container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(1, 1, 113);
+  background-color: rgb(33, 33, 59);
 }
 
 .Header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(1, 1, 113);
+  background-color: rgb(33, 33, 59);
   padding: 8px;
   margin: 0;
 }
@@ -31,4 +31,33 @@ img {
 .Top {
   display: flex;
   justify-content: center;
+  gap: 250px;
+  padding-top: 70px;
+}
+
+.leftSide {
+  text-align: left;
+  color: white;
+  padding-left: 25px;
+}
+
+.leftSide button {
+  color: white;
+  background-color: rgb(5, 68, 255);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  width: 100px;
+}
+
+.leftSide p {
+  color: rgb(209, 207, 207);
+}
+
+.rightSide img {
+  border: 5px dashed rgb(255, 255, 255);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
